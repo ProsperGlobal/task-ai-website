@@ -164,7 +164,7 @@ transform: translate(-40px, 15px);
 
 .umbrella-section {
    background: linear-gradient(to left, #030414 38%, #351c39 62%);
-min-height: 4000px;
+min-height: 2590px;
 overflow: hidden;
 }
 
@@ -593,12 +593,13 @@ color: white;
 margin: 45px 0px 0px 5px;
 display: inline-flex;
 align-items: center;
+justify-content: center;
+gap: 5px;
 border-radius: 40px;
 background: linear-gradient(to right, #174993, #892CAE);
 padding: 12px 10px;
-width: 90%;
+width: 95%;
 }
-
 
 .pricing-child1:nth-child(3) {
 background: linear-gradient(to right, #9333EA33, #4F46E533);
@@ -607,3 +608,89 @@ height: 400px;
 padding: 0 15px;
 border-radius: 20px;
 }
+
+.pricing-child1:nth-child(3) a .get22 {
+    margin-top: 45px;
+}
+
+footer {
+  /* opacity: 50%; */
+  background: linear-gradient(
+  90deg,#28162f 0%, #28162f 30%,
+  #201129 40%, #160d22 50%,#0c081a 60%, #030414 70%, #030414 100%
+);
+height: 285px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px ;
+}
+
+.footer-child {
+    display: flex;
+    gap: 110px;
+    flex-direction: row;
+  }
+
+.footer-child div:nth-child(1) {
+    margin: 50px 0px 0px;
+}
+
+.footer-child a {
+opacity: 50%;
+color: white;
+}
+
+.footer-first {
+transform: translate(60px, 0);
+}
+
+.footer-first p {
+font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+opacity: 50%;
+color: white;
+margin: 15px 0px 10px 0px;
+}
+
+.footer-child h4 {
+    font-family: Orbitron;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+margin: 50px 0px 15px 0px;
+
+}
+
+.footer-child > div:not(.footer-first) > a {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.footer-child p {
+    font-family: Sora;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+}
+
+.hrline {
+    width: 92%;
+    margin: 20px auto 0;
+    border: none;
+    border-top: 1px solid #434141;
+}
+
+footer:not(div .footer-child) > p {
+    font-family: "Sora", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #434141;
+    margin: 8px 0 20px 4%;
+}
+
