@@ -282,6 +282,13 @@ color: white;
 .features-child01 {
     margin-top: 10px;
     text-align: left;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.45);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.features-child01:hover {
+   transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.6);
 }
 
 .features-child01 h3 {
@@ -568,6 +575,10 @@ text-align: center;
 width: 97%;
 }
 
+.pricing-child1 {
+        box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.35);
+}
+
 .pricing-child1:nth-child(1) {
 background-color: #0000004D;
 border-radius: 20px;
@@ -582,6 +593,7 @@ width: 390px;
 height: 400px;
 padding: 0 15px;
 border-radius: 20px;
+/* opacity: 90%; */
 }
 
 .get022 {
